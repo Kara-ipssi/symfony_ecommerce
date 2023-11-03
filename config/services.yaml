@@ -24,3 +24,7 @@ services:
     # please note that last definitions always *replace* previous ones
 
     Cocur\Slugify\Slugify: ~
+
+    App\Taxes\Detector:
+        arguments:
+            $seuil: 100
